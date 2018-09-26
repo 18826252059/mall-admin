@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: db, core, admin, wx
+  message:
+    encoding: UTF-8
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root:  ERROR
+    org.springframework:  ERROR
+    org.mybatis:  ERROR
+    org.sandwich.litemall.core:  ERROR
+    org.sandwich.litemall.db:  ERROR
+    org.sandwich.litemall.admin:  ERROR
+    org.sandwich.litemall.wx:  ERROR
+    org.sandwich.litemall:  ERROR
